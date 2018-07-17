@@ -1,0 +1,402 @@
+<resources>
+
+    <!-- Orginal app-->
+    <string name="app_name">PaginatedRecycler</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="no_internet_msg">It looks like your internet connection is off. Please turn it " +
+                            "on and try again</string>
+    <string name="trim_expanded_text">Show Less</string>
+    <string name="trim_collapsed_text">Show More</string>
+
+    <!-- Firebase -->
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+
+
+    <!--play store-->
+    <string name="app_google_play_store_link">"https://play.google.com/store/apps/details?id="</string>
+    <string name="app_market_link">"market://details?id="</string>
+
+
+    <!-- Navigation Drawer Items -->
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_profile">Profile</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_orders">Orders</string>
+    <string name="nav_vehicles">Vehicles</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_payments">Payments</string>
+    <string name="nav_quota">LPG Quota</string>
+    <string name="nav_help">Help</string>
+    <string name="nav_logout">Logout</string>
+    <string name="app_version">App Version: %1$s</string>
+    <string name="nav_order_details">Order Details</string>
+
+    <!-- GENERAL VIEWS -->
+    <string name="next">Next</string>
+    <string name="lpg">LPG</string>
+    <string name="gasoline">GASOLINE</string>
+    <string name="confirm">Confirm</string>
+    <string name="today">Today</string>
+    <string name="tomorrow">Tomorrow</string>
+    <string name="save">Save</string>
+    <string name="done">Done</string>
+    <string name="add">Add</string>
+    <string name="edit">Edit</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="allow">Allow</string>
+    <string name="deny">Deny</string>
+    <string name="continue_str">Continue</string>
+    <string name="item_price">AED %1$.02f</string>
+    <string name="no_notifications_found">No notifications found</string>
+
+
+    <!-- SPLASH VIEW -->
+    <string name="splash_header"><![CDATA[LPG & Gasoline\nDelivery]]></string>
+    <string name="splash_start">Start Here</string>
+
+    <!-- INTRO VIEW -->
+    <string name="intro_title"><![CDATA[INTRODUCING\nC2F PILOT]]></string>
+    <string name="intro_first_header"><![CDATA[C2F Pilot is the safest, fastest\nand easiest way to get LPG.\nWe deliver LPG cylinders\nstraight to your door to make\nsure you never run out!]]></string>
+    <string name="intro_second_header"><![CDATA[Tired of taking time out\nof your day to refuel?\nLet us do it for you.\nC2F Pilot delivers gasoline\nto your vehicle so you can stay\nfocused on what matters.]]></string>
+
+    <!--Home Activity-->
+    <string name="home_title">ADNOC Distribution</string>
+    <string name="home_lpg_caption">DELIVER TO MY HOME</string>
+    <string name="home_c2f_caption">DELIVER TO MY CAR</string>
+    <string name="home_permission_description">Please allow app to access your location</string>
+    <string name="home_wallet_url">https://smart.adnocdistribution.ae/CSP/Home.aspx</string>
+    <string name="home_location_finder_url">https://www.adnocdistribution.ae/en/contact/location-finder/</string>
+
+    <!--Order List Fragment-->
+    <string name="order_list_not_authorized_error">Order is not authorized.\nPlease pay for the order.</string>
+
+    <!--Order Details Fragment-->
+    <string name="order_details_item_count">(%1$d)</string>
+    <string name="order_details_cancel_order_cost">CANCEL ORDER: AED -%1$.02f</string>
+    <string name="order_details_cancelled_order_total_cost">Total Cost: AED %1$.02f</string>
+    <string name="order_details_cancelled_order_refunded_amount">REFUNDED AMOUNT: AED - %1$.02f</string>
+
+
+    <!--Select LPG Activity-->
+    <string name="select_lpg_title">Select LPG</string>
+    <string name="lpg_replace_item_small">Small</string>
+    <string name="lpg_replace_item_large">Large</string>
+    <string name="lpg_replace_item_unsubsidized">UNSUBSIDIZED</string>
+    <string name="lpg_replace_insufficient_quota">Insufficient Quota</string>
+    <string name="lpg_replace_item_no_quota">Insufficient quota</string>
+    <string name="lpg_view_pager_title_replace">REPLACE</string>
+    <string name="lpg_view_pager_title_extra">EXTRA</string>
+    <string name="lpg_view_pager_title_accessories">ACCESSORIES</string>
+
+    <!--Notification Activity-->
+    <string name="notification_title">Notification</string>
+    <string name="notification_placeholder">Your order #: 3628 is scheduled\nfor delivery Today, (08:00&#8211;12:00)</string>
+
+    <!--Schedule Delivery Activity-->
+    <string name="schedule_delivery_title">Schedule Delivery</string>
+    <string name="schedule_confirm_address">Confirm Address</string>
+    <string name="schedule_select_date">Select Date</string>
+    <string name="schedule_select_time">Select Time</string>
+    <string name="schedule_select_lpg_next_schedule">Next: Schedule Delivery</string>
+    <string name="schedule_no_time_selected_error">You haven\'t selected a delivery time</string>
+    <string name="schedule_time_slot_error">All slots have been booked for this day. Try to book a slot for upcoming day(s)</string>
+    <string name="schedule_no_trucks_error">Trucks fully utilized at the moment. Please check back again in the future.</string>
+    <string name="schedule_next_checkout">Next: Checkout</string>
+
+    <!--Checkout Activity-->
+    <string name="checkout_title">Checkout</string>
+    <string name="checkout_delivery_information">DELIVERY INFORMATION</string>
+    <string name="checkout_date_time">Delivery Date &amp; Time</string>
+    <string name="checkout_delivery_instruction">DELIVERY INSTRUCTION</string>
+    <string name="checkout_order_summary">ORDER SUMMARY</string>
+    <string name="checkout_payment_method">PAYMENT METHOD</string>
+    <string name="checkout_change_payment_method">Change Payment Method</string>
+    <string name="checkout_add_payment_method">Add Payment Method</string>
+    <string name="checkout_order_total">ORDER TOTAL</string>
+    <string name="checkout_item_count">%1$d x %2$s</string>
+    <string name="checkout_item_count_with_category">%1$d x %2$s - %3$s</string>
+    <string name="checkout_service_fee">Service Fee</string>
+    <string name="checkout_subtotal">Subtotal</string>
+    <string name="checkout_service_fee_vat">VAT %1$d%%</string>
+    <string name="checkout_total_vat">Total VAT</string>
+    <string name="checkout_estimated_cost">Estimated Cost</string>
+    <string name="checkout_minimum_cost">Minimum Cost</string>
+    <string name="checkout_swipe_to_order">SWIPE TO ORDER</string>
+    <string name="checkout_swipe_order">Order</string>
+    <string name="checkout_add_card">ADD NEW CARD (SWIPE TO ORDER)</string>
+    <string name="checkout_time_slot_error">The selected time slot is no longer available.</string>
+
+    <!--Delivery Instructions Activity-->
+    <string name="delivery_instructions_title">Delivery Instructions</string>
+    <string name="delivery_instructions_subtitle">Provide\n Delivery Instructions</string>
+    <string name="delivery_instructions_details">Please provide additional instructions to help\nour delivery team find your delivery location</string>
+    <string name="delivery_instructions_hint"><![CDATA[<i>Example: My maid Maria will receive the delivery. Her number is 055 555 5555<i>]]></string>
+
+    <!--Successful Payment Activity-->
+    <string name="successful_payment_order_id">Order ID: %1$s</string>
+    <string name="successful_payment_success">SUCCESS</string>
+    <string name="successful_payment_order_placed">YOUR ORDER IS PLACED</string>
+    <string name="successful_payment_lpg_warning">Please make sure someone is at the delivery  location to receive order</string>
+    <string name="successful_payment_c2f_warning">Remember to meet the driver\nor leave the gas tank door open</string>
+    <string name="successful_payment_order_item_count">%1$d x</string>
+
+    <!--Payment Method Activity-->
+    <string name="payment_method_title">Payment Method</string>
+    <string name="payment_method_add_card_read_me"><![CDATA[<b>READ ME</b><br> In order to <b>ADD CARD</b> as a payment method. you\'ll be redirected to a secure page after swiping to order <b>CHECKOUT.</b>]]></string>
+    <string name="payment_method_debit_disclaimer"><![CDATA[<b>DEBIT CARD DISCLAIMER</b><br>Please note that if you use debit card for an order then the authorization/hold and refund timing will be based on your bank policies. For some debit cards the hold can take up to 30 days to release so please ensure you have sufficient funds to make purchases.]]></string>
+    <string name="payment_method_with_cash_read_me"><![CDATA[<b>READ ME</b><br>In order to proceed with <b>CASH ON DELIVERY</b> option, we still need to keep your <b>CARD</b> information on file for payment authorization. Please select your preferred <b>CARD</b> for this purpose <b>WE WILL NOT CHARGE YOUR CARD.</b>]]></string>
+
+    <!--Payment Issue-->
+    <string name="payment_issue_title">Payment Issue</string>
+    <string name="payment_issue_details">Payment status of order is "Not Paid". Please \nselect one of the options below to complete.</string>
+
+    <!--App Message-->
+    <string name="api_retry_error">Please retry!</string>
+    <string name="api_default_error">Something wrong happened!</string>
+    <string name="some_error">Some Error Occurred!</string>
+    <string name="connection_error">Internet connection lost!</string>
+    <string name="insufficient_info">Insufficient information was supplied. Please check and try again.</string>
+    <string name="place_details">&lt;b&gt;%1$s&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Place Id: %2$s&lt;/i&gt;&lt;br/&gt;Address: %3$s&lt;br/&gt;Phone: %4$s&lt;br/&gt;Website: %5$s</string>
+
+    <!--Popup messages-->
+    <!--Popup order cancelled-->
+    <string name="popup_input_order_cancelled_title">ORDER CANCELLED:</string>
+    <string name="popup_input_order_cancelled_primary_body">We will not charge you for this order</string>
+    <string name="popup_input_order_cancelled_secondary_body">to improve our service, please provide your reasons for cancelling this order</string>
+    <string name="popup_input_cancel_order_hint">Provide reasons here &#8230;</string>
+
+    <string name="popup_quota_title">Quota for Subsidised\nLPG Cylinders</string>
+    <!--Popup Delivery Information-->
+    <string name="popup_delivery_information_title">Delivery Information</string>
+    <string name="popup_delivery_information_primary_body">For a seamless delivery, please ensure that someone is at the delivery location to receive the order</string>
+
+    <!--Popup Estimated Cost-->
+    <string name="popup_estimated_cost_title">Please Read Below</string>
+    <string name="popup_estimated_cost_lpg_body">You will only be charged for delivered items once the delivery is completed.</string>
+    <string name="popup_estimated_cost_c2f_body">This is estimated amount for the order. You will be charged only for the actual fuel dispensed which will be determined at the time of delivery.</string>
+
+    <!--Popup Remove Payment Card-->
+    <string name="popup_remove_card_title">Confirm</string>
+    <string name="popup_remove_card_body">Are you sure you want to\nremove this card?</string>
+
+    <!--Popup Remove Onwani URL-->
+    <string name="popup_remove_onwani_url_title">Confirm</string>
+    <string name="popup_remove_onwani_url">Are you sure you want to remove Onwani URL?</string>
+
+    <!--Popup Service Fee-->
+    <string name="popup_service_fee_title">Service Fee</string>
+    <string name="popup_service_fee_lpg_description">The service fee includes delivery of clean cylinders, installation, expert personnel and customer support</string>
+    <string name="popup_service_fee_lpg_value"><![CDATA[There is a service fee of <b>AED %1$.02f</b> for each LPG cylinder.]]></string>
+    <string name="popup_service_fee_c2f_description">The service fee includes delivery of fuel, dispensing and customer support.\nA discount is applied to the service fee when there is more than one vehicle.</string>
+    <string name="popup_service_fee_c2f_value"><![CDATA[There is a service fee of <b>AED %1$.02f</b> for the first vehicle, and a discounted price of <b>AED %2$.02f</b> for each additional vehicle. ]]></string>
+
+
+    <!--Popup Quota Not Found-->
+    <string name="popup_quota_not_found_title">Quota Not Found</string>
+    <string name="popup_quota_not_found_primary_text">We did not find quota for subsidised LPG cylinder prices associated with your account.</string>
+    <string name="popup_quota_not_found_secondary_text">LPG cylinders will be listed at unsubsidised prices</string>
+    <string name="popup_quota_not_found_customer_support">CUSTOMER SUPPORT</string>
+    <string name="popup_quota_not_found_contact_us">For any questions\nplease contact</string>
+    <string name="popup_quota_lpg_unsubsidised_warning">[US SIGN] Indicates LPG cylinders listed at unsubsized prices </string>
+
+    <!--Popup Quota Found-->
+    <string name="popup_quota_found_title">Quota Found</string>
+    <string name="popup_quota_found_primary_text">We have found your quota for subsidised LPG cylinder prices. You may use Your LPG quota to purchase LPG cylinders</string>
+    <string name="popup_quota_found_monthly_quota">Monthly Quota:</string>
+    <string name="popup_quota_found_available_quota">Available Quota:</string>
+    <string name="popup_quota_found_button">Begin Ordering</string>
+
+    <!--Popup Item Info-->
+    <string name="lpg_item_popup_description_normal_1">Full LPG cylinder to replace your existing cylinder</string>
+    <string name="lpg_item_popup_description_normal_2">If you don\'t have an existing cylinder to exchange, please order an EXTRA cylinder instead</string>
+    <string name="lpg_item_popup_description_normal_3">Dimensions: %1$s</string>
+    <string name="lpg_item_popup_description_normal_4">Price shown includes VAT of %1$s</string>
+    <string name="lpg_item_popup_description_extra_1">Full LPG cylinder without exchanging an existing cylinder</string>
+    <string name="lpg_item_popup_description_extra_2">If you have an existing cylinder to exchange, please order a REPLACE cylinder instead</string>
+    <string name="lpg_item_popup_description_extra_3">Any accessories are not included</string>
+    <string name="lpg_item_popup_includes_1">Cylinder inspection and safety check</string>
+    <string name="lpg_item_popup_includes_2">Professional installation of full cylinder (Optional)</string>
+    <string name="lpg_item_popup_includes_normal_3">Secure removal of empty cylinder</string>
+    <string name="lpg_item_popup_includes_extra_3">Any accessories are not included</string>
+    <string name="lpg_item_popup_add_button_price">AED %1$.02f - ADD</string>
+    <string name="insufficient_quota_popup_title">Remaining Quota Low</string>
+    <string name="insufficient_quota_popup_body">You have spent most of your LPG quota for the month. If your remaining LPG quota is insufficient to purchase  certain LPG cylinders at subsidised prices, you will have the option to purchase them at un subsidised prices.</string>
+
+    <!--Popup Emirates ID-->
+    <string name="popup_why_emirates_id">Why Emirates ID?</string>
+    <string name="popup_your_emirates_id_allows_us_to_nprovide_lpg_subsidies_and_quick_ncar_registration_please_provide_nyour_emirates_id_to_register_for_c2f_npilot_services">Your Emirates ID allows us to provide LPG subsidies and quick car registration. Please provide your Emirates ID to register for ADNOC Dist services.</string>
+
+    <!--Popup Onwani-->
+    <string name="onwani">Onwani</string>
+    <string name="onwani_popup_to_provide_you_with_the_best_nservice_possible_we_have_nincorporated_onwani_nto_ensure_our_delivery_team_nis_able_to_find_your_exact_nlocation_to_perform_the_nfastest_order_delivery">To provide you with the best service possible, we have incorporated ONWANI to ensure our delivery team is able to find your exact location to perform the fastest order delivery.</string>
+    <string name="onwani_popup_learn_more">LEARN MORE</string>
+
+    <!--Popup Safe Delivery-->
+    <string name="safe_delivery_header">To ensure safe delivery\nof your gasoline, please tap to\nconfirm each of the following</string>
+    <string name="safe_delivery_item_one">Your vehicle will be in open\nair parking</string>
+    <string name="safe_delivery_item_two">Your vehicle will not be nearby\nignition sources</string>
+    <string name="safe_delivery_item_two_desc">(e.g., live wires, cigarettes)</string>
+    <string name="safe_delivery_item_three">Vehicle will not be\nblocking traffic</string>
+
+    <!--Popup Rate Service-->
+    <string name="rate_service_no_rating_error">Please rate your delivery experience by selecting 1&#8211;5 stars</string>
+
+    <!-- Popup Unauthorized Order -->
+    <string name="popup_unauthorized_order_id">Payment Unauthorized\nOrder: %1d</string>
+
+    <!-- Popup Force Update -->
+    <string name="popup_force_update_title">New version available</string>
+    <string name="popup_force_update_description">Please update your application immediately to continue.</string>
+
+    <!--Bottom Sheet-->
+    <string name="bottom_sheet_question_logout">Are you sure you want to logout?</string>
+    <string name="bottom_sheet_question_select_lpg">If you go back items in your cart will be lost. Do you still want to continue?</string>
+    <string name="bottom_sheet_question_card_enable">Are you sure you want to enable Cash On Delivery as your default payment method for LPG orders?</string>
+    <string name="bottom_sheet_question_card_disable">Are you sure you want to disable Cash On Delivery as your default payment method for LPG orders?</string>
+
+
+    <!-- Emirates -->
+    <string name="emirate_abu_dhabi">Abu Dhabi</string>
+    <string name="emirate_ajman">Ajman</string>
+    <string name="emirate_dubai">Dubai</string>
+    <string name="emirate_fujairah">Fujairah</string>
+    <string name="emirate_ras_al_khaimah">Ras al-Khaimah</string>
+    <string name="emirate_umm_al_quwain">Umm al-Quwain</string>
+    <string name="emirate_sharjah">Sharjah</string>
+
+    <!-- Fuels -->
+    <string name="fuel_special_95">Special 95</string>
+    <string name="fuel_super_98">Super 98</string>
+
+    <!--  Vehicle  -->
+    <string name="vehicle_year">Year: %1s</string>
+    <string name="vehicle_color">Color: %1s</string>
+    <string name="vehicle_number">Plate Number: %1s %2s</string>
+    <string name="vehicle_fuel">Preferred Fuel: %1s</string>
+    <string name="vehicle_name">%1s %2s</string>
+    <string name="vehicle_details">%1s . %2s . Plate #: %3s</string>
+
+    <!--Vehicle Activity-->
+    <string name="vehicle_select_vehicle_title">Select Vehicle</string>
+    <string name="vehicle_select_fuel_amount_title">Select Fuel Amount</string>
+    <string name="vehicle_select_time_title">Select Time</string>
+    <string name="vehicle_next_fuel_amount">Next: Select Fuel Amount</string>
+    <string name="vehicle_next_time">Next: Select Time</string>
+    <string name="vehicle_next_checkout">Next: Checkout</string>
+    <string name="vehicle_view_select_vehicle">Select Vehicle</string>
+    <string name="vehicle_view_1_select_vehicle">1. Select Vehicle</string>
+    <string name="vehicle_view_2_select_fuel_amount">2. Select Fuel Amount</string>
+    <string name="vehicle_view_3_select_time">3. Select Time</string>
+    <string name="vehicle_view_add_new_vehicle">ADD NEW VEHICLE</string>
+    <string name="vehicle_view_select_fuel_amount">Next: Select Fuel Amount</string>
+    <string name="vehicle_item_price">AED %1$d</string>
+
+
+    <!--Fuel Amount Fragment-->
+    <string name="fuel_amount_per_liter">per liter</string>
+    <string name="fuel_amount_approx_item_price">Approximate liters = %1$.02f</string>
+    <string name="fuel_amount_pate_number">Plate #: %1$s</string>
+
+    <!--Rahal Activity-->
+    <string name="rahal_title">E-Rahal Cards</string>
+    <string name="rahal_select_card">Select a Rahal Card</string>
+
+    <!-- Add Vehicle Strings -->
+    <string name="add_vehicle_cancel">Cancel</string>
+    <string name="add_vehicle_input_vehicle_details">Input Vehicle Details</string>
+    <string name="add_vehicle_brand">Brand</string>
+    <string name="add_vehicle_year">Year</string>
+    <string name="add_vehicle_color">Color</string>
+    <string name="add_vehicle_emirate">Emirate</string>
+    <string name="add_vehicle_plate_code">Plate Code (e.g B or 12)</string>
+    <string name="add_vehicle_plate_no">Plate Number (e.g 12345)</string>
+    <string name="add_vehicle_preferred_fuel">Preferred Fuel</string>
+    <string name="add_vehicle_remove">REMOVE VEHICLE</string>
+    <string name="add_vehicle_done">Done</string>
+    <string name="add_vehicle_model">Model</string>
+
+
+    <!-- Address View -->
+    <string name="address_confirm">Confirm Address Details</string>
+
+    <!-- Map View -->
+    <string name="map_enter_primary_address">Enter your primary address&#8230;</string>
+    <string name="map_basic">Basic</string>
+    <string name="map_satellite">Satellite</string>
+    <string name="map_primary_address">Delivery Address</string>
+    <string name="map_permission_description">Your current location will be displayed on the map and used for visually selecting and displaying your delivery address locations</string>
+    <string name="profile">Profile</string>
+    <string name="call_to_fuel_pilot">Call To Fuel Pilot</string>
+
+    <!-- HELP View -->
+    <string name="help_header">We are here to help. Please contact us with any questions.</string>
+    <string name="help_contact_us">CONTACT US</string>
+    <string name="help_call">CALL</string>
+    <string name="help_tap_to_call">Tap to Call</string>
+    <string name="help_email">EMAIL</string>
+    <string name="help_tap_to_email">Tap to Email</string>
+    <string name="help_self_help">SELF HELP</string>
+    <string name="help_faq">FAQ</string>
+    <string name="help_terms_and_conditions">Terms and Conditions</string>
+    <string name="help_faq_url">https://support.calltofuelpilot.ae</string>
+
+    <!-- Order View -->
+    <string name="order_order_details">ORDER DETAILS</string>
+    <string name="order_order_id">Order ID</string>
+    <string name="order_delivery_date_amp_time"><![CDATA[Delivery Date & Time]]></string>
+    <string name="order_delivery_details">DELIVERY DETAILS</string>
+    <string name="order_cancellation_reason">Cancellation Reason</string>
+    <string name="order_certified_vehicle_operator">Certified Vehicle Operator</string>
+    <string name="order_truck_contact_number">Truck Contact Number</string>
+    <string name="order_delivery_address">DELIVERY ADDRESS</string>
+    <string name="order_cash_on_delivery">Cash On Delivery</string>
+    <string name="order_adnoc_distribution">ADNOC Distribution Global Company LLC</string>
+    <string name="order_adnoc_address">Abu Dhabi Island Al Salam Street Abu Dhabi National Oil Company for Distribution Building P.O. Box 4188 Abu Dhabi, UAE</string>
+    <string name="order_tax_registration">Tax Registration #</string>
+    <string name="order_cancel_order">CANCEL ORDER</string>
+    <string name="order_truck_licence_plate">Truck Licence Plate</string>
+    <string name="order_certified_delivery_attendant">Certified Delivery Attendant</string>
+
+    <!-- Register View -->
+    <string name="register_sign_up_for_a_new_naccount">Sign up for a new account!</string>
+    <string name="register_full_name">Full Name</string>
+    <string name="register_primary_address">Primary Address</string>
+    <string name="register_phone_number">Phone Number</string>
+    <string name="register_enter_your_mobile_number">Enter your mobile number</string>
+    <string name="register_personal_email">Personal Email</string>
+    <string name="register_adnoc_employees">(ADNOC employees please provide personal email)</string>
+    <string name="register_emirates_id">Emirates Id</string>
+    <string name="register_id_emirates_id">Emirates ID</string>
+    <string name="register_emirates_id_number">Please enter your Emirates ID number</string>
+    <string name="register_emirates_id_already_exist_error">This emirates ID is already registered. Please try with different ID.</string>
+    <string name="register_learn_more">Learn More</string>
+    <string name="register_verify_mobile_nnumber">Verify mobile number</string>
+    <string name="register_verify_desc">Please enter the four digit code sent to your mobile phone number</string>
+    <string name="register_edit_mobile_nnumber">Edit\nMobile Number</string>
+    <string name="register_resend_code">RESEND CODE</string>
+    <string name="register_having_trouble">Having trouble?</string>
+    <string name="register_call_us">Call Us</string>
+    <string name="register_welcome">Welcome</string>
+    <string name="register__sign_in_to_continue">Sign in to continue</string>
+    <string name="register_tnc"><![CDATA[I agree to the Terms & Conditions]]></string>
+    <string name="register_leading_zero_warning">Please omit leading zero</string>
+
+    <!--QR Scanner-->
+    <string name="qr_scanner_title">QR Scanner</string>
+    <string name="qr_scanner_camera_permission_description">Please allow the app to access your device\'s camera</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="order_lpg_cylinder">Order LPG Cylinder</string>
+    <string name="order_gasoline">Order Gasoline</string>
+    <string name="adnoc_distribution">ADNOC Distribution</string>
+    <string name="home_lpg_service_unavailable">Thank you for registering for ADNOC Dist services. You will be notified \nwhen the service is available.</string>
+    <string name="home_c2f_service_unavailable">We are rolling out the gasoline service.\nYou will receive a notification when the service becomes available in your area.</string>
+</resources>
+

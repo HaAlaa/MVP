@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/item_margin">
+
+    <com.github.siyamed.shapeimageview.DiamondImageView
+        android:id="@+id/profileImage"
+        android:layout_width="@dimen/profile_img"
+        android:layout_height="@dimen/profile_img"
+        android:layout_margin="@dimen/item_margin"
+        app:siBorderColor="@color/casablanca"
+        app:siBorderWidth="@dimen/border_width" />
+
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/item_margin"
+        android:text="User name"
+        app:layout_constraintStart_toEndOf="@+id/profileImage" />
+
+    <TextView
+        android:id="@+id/postDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/item_margin"
+        android:text="date"
+        app:layout_constraintStart_toEndOf="@+id/profileImage"
+        app:layout_constraintTop_toBottomOf="@+id/userName" />
+
+
+    <TextView
+        android:id="@+id/postText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/item_margin"
+        android:text="post text"
+        app:layout_constraintTop_toBottomOf="@+id/profileImage" />
+
+    <ImageView
+        android:id="@+id/postImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/item_margin"
+        app:layout_constraintTop_toBottomOf="@+id/postText" />
+
+    <TextView
+        android:id="@+id/likes_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/item_margin"
+        android:text="Likes: "
+        app:layout_constraintTop_toBottomOf="@+id/postImage" />
+
+    <TextView
+        android:id="@+id/likes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/item_margin"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:text="likes"
+        app:layout_constraintStart_toEndOf="@+id/likes_label"
+        app:layout_constraintTop_toBottomOf="@+id/postImage" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="@dimen/item_margin"
+        android:background="@color/colorPrimary"
+        app:layout_constraintTop_toBottomOf="@id/likes" />
+
+</android.support.constraint.ConstraintLayout>
